@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="stylesheet\style.css" type="text/css" rel="stylesheet" />
+    <title>Omkar_Yadav_Stopwatch</title>
+  </head>
+  <body>
+    <section class="container">
+      <div id="timer">
+        <div id="timer-stat">
+          <h2>StopWatch</h2>
+          <input id="min" placeholder="set minutes" type="number" />
+          <input id="sec" placeholder="set seconds" type="number" />
+          <p id="notification"></p>
+        </div>
+        <button id="startBtn" onclick="startCount();">Start Timer</button>
+        <button id="stopBtn" onclick="stop();">Stop</button>
+        <button id="resetBtn" onclick="reset();">Reset</button>
+        <h5 id="msg"></h5>
+      </div>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>

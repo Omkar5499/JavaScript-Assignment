@@ -1,0 +1,60 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div#timer-stat {
+  margin-bottom: 50px;
+}
+div#timer-stat h2 {
+  background-color: #000;
+  padding: 20px;
+  color: aqua;
+  margin-bottom: 30px;
+}
+input {
+  min-width: 50px;
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+button {
+  border: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button#startBtn {
+  background-color: #00a03e;
+  padding: 20px;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+button#stopBtn {
+  background-color: #f1404b;
+  padding: 20px;
+  font-size: 17px;
+  color: #ffffff;
+  display: none;
+}
+
+button#resetBtn {
+  background-color: #e6e6e6;
+  padding: 20px;
+  font-size: 17px;
+  color: #8e8e8e;
+}
